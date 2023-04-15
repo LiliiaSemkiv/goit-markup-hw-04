@@ -391,14 +391,14 @@ body{
     color: var(--brand-color-9);
 }
 
-.section-five-svg {
-    fill: currentColor;
+.section-five-link:hover,
+.section-five-link:focus {
+    border-color: var(--brand-color-4-ocean);
+    color: var(--brand-color-4-ocean);
 }
 
-.section-five-link:hover,
-.section-five-link:focus{
-    border-color:var(--brand-color-4-ocean);
-    color: var(--brand-color-4-ocean); 
+.section-five-svg {
+    fill: currentColor;
 }
 
 .footer{
