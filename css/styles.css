@@ -377,15 +377,15 @@ body{
     border-radius: 4px;
 }
 
+.section-five-link{
+    width: 100%;
+    height: 100%;
+}
 
 .section-five-link{
     display: flex;
     justify-content: center;
     align-items: center;
-
-    width: 100%;
-    height: 100%;
-
     border: 1px solid var(--brand-color-8-light-slate);
     border-radius: 4px;
     color: var(--brand-color-8-light-slate);
