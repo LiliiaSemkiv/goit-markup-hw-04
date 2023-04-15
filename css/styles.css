@@ -221,8 +221,8 @@ body{
 }
 
 .section-two-svg{
-    width: 64px;
-    height: 64px;
+    width: 64;
+    height: 64;
 }
 
 .section-three{
@@ -407,7 +407,7 @@ body{
 .footer-container{
     display: flex;
     align-items: baseline;
-    margin-right: 120px
+    margin-right: 120px;
 }
 
 .footer-logo{
@@ -447,8 +447,8 @@ body{
 }
 
 .footer-svg{
-    width: 24px;
-    height: 24px;
+    width: 24;
+    height: 24;
 }
 
 .section-portfolio{
@@ -526,8 +526,7 @@ body{
     color: var(--brand-color-6-white);
     background-color: var(--brand-color-4-ocean);
 
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    border-radius: 4px;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 
