@@ -388,7 +388,7 @@ body{
 
     border: 1px solid var(--brand-color-8-light-slate);
     border-radius: 4px;
-    color: var(--brand-color-9);
+    color: var(--brand-color-8-light-slate);
 }
 
 .section-five-link:hover,
