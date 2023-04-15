@@ -193,7 +193,7 @@ body{
 }
 
 .section-two-item{
-    width: calc((100%-72px)/4);
+    width: calc((100% - 72px) / 4);
 }
 
 .section-two-subtitle{
@@ -217,9 +217,7 @@ body{
     align-items: center;
     margin-bottom: 8px;
 
-    width: 264px;
     height: 112px;
-    padding: 24px 102.14px;
 
     margin-left: 0px;
     margin-top: 0px;
@@ -364,6 +362,7 @@ body{
     display: flex;
     align-items: center;
     gap: 24px;
+    margin: 0;
 }
 
 .section-five-item{
