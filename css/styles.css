@@ -6,6 +6,7 @@
 --brand-color-5-cloud: #F4F4FD;
 --brand-color-6-white: #ffffff;
 --brand-color-7-cornflower: #E7E9FC;
+--brand-color-8-light-slate: #8E8F99;
 }
 
 body{
@@ -111,7 +112,14 @@ body{
 .section-one{
     background-color: var(--brand-color-1-navy-blue);
     padding: 188px 0;
+}
 
+.section-one{
+
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),
+    url(../images/index/section-one/people-office.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .section-one-title{
@@ -157,6 +165,8 @@ body{
 .section-one-btn:hover,
 .section-one-btn:focus{
     background-color: var(--brand-color-4-ocean);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 
 .section-two{
@@ -181,6 +191,23 @@ body{
     display: flex;
     margin: 0;
     gap: 24px;
+}
+
+.section-two-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+
+    width: 264px;
+    height: 112px;
+    padding: 24px 102.14px;
+
+    margin-left: 0px;
+    margin-top: 0px;
+
+    background: #F4F4FD;
+    border-radius: 4px;
 }
 
 .section-three{
@@ -252,15 +279,84 @@ body{
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--brand-color-2-slate);
+    margin-bottom: 8px;
 }
 
 .section-four-item{
     background-color: var(--brand-color-6-white);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .section-four-container{
     padding: 32px 16px;
     border-radius: 0px 0px 4px 4px;
+}
+
+.section-four {
+    background-color: var(--brand-color-5-cloud);
+}
+
+.section-four-socials{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 0;
+}
+
+.section-four-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 40px;
+    height: 40px;
+    background-color: var(--brand-color-3-iris);
+    border-radius: 50%;
+}
+
+.section-four-link:hover,
+.section-four-link:focus{
+    background-color: var(--brand-color-4-ocean);
+}
+
+.section-five-list{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.section-five-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 168px;
+    height: 88px;
+    border: 1px solid var(--brand-color-8-light-slate);
+    border-radius: 4px;
+
+    margin-bottom: 120px;
+}
+
+.section-five-item:hover,
+.section-five-item:focus{
+    border: 1px solid var(--brand-color-4-ocean);
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+.section-five-svg:hover, 
+.section-five-svg:focus {
+    background: var(--brand-color-4-ocean);
 }
 
 .footer{
@@ -314,6 +410,11 @@ body{
     flex-basis: calc((100%-(24px*2))/3);
 }
 
+.portfolio-img-item:hover, 
+.portfolio-img-item:focus {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 .portfolio-img-subtitle{
     margin-bottom: 8px;
     font-weight: 500;
@@ -329,10 +430,6 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--brand-color-2-slate);
-}
-
-.section-four{
-    background-color: var(--brand-color-5-cloud);
 }
 
 .portfolio-btn{
@@ -358,7 +455,12 @@ body{
     border: 1px solid transparent;
     color: var(--brand-color-6-white);
     background-color: var(--brand-color-4-ocean);
+
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
 }
+
+
 
 .portfolio-img-link{
     text-decoration: none;
@@ -395,3 +497,19 @@ img{
 }
 
 /* reset end */
+
+.section-five-title{
+    margin-top: 120px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    
+    color: var(--brand-color-1-navy-blue);
+}
+
